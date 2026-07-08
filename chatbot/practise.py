@@ -1,6 +1,3 @@
-from dotenv import load_dotenv
-import os
+import langchain.agents as agents
 
-load_dotenv()   # Load variables from .env
-
-print(os.getenv("GOOGLE_API_KEY"))
+print(dir(agents))
